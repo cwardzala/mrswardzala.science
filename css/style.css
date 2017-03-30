@@ -5,9 +5,12 @@ body {
 
 a {
   text-decoration: none;
+  color: #0074D9;
+  transition: color 200ms ease-in-out;
 }
 a:hover, a:active {
   text-decoration: underline;
+  color: #0059a6;
 }
 
 .header {
