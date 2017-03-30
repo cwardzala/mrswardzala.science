@@ -1,0 +1,49 @@
+body {
+    display: grid;
+    font-family: 'Roboto Slab', serif;
+}
+
+a {
+    text-decoration: none;
+    
+    &:hover,
+    &:active {
+        text-decoration: underline;
+    }
+}
+
+.header {
+    background-color: #FF851B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    color: hsla(28, 100%, 20%, 1.0);
+    
+    a {
+        color: hsla(28, 100%, 20%, 1.0);
+    }
+}
+.container {
+    padding: 40px 
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-weight: normal;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.subhead {
+    font-size: 20px;
+}
